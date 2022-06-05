@@ -1,0 +1,46 @@
+/******************************Selector tag***********************/
+
+body{
+    margin:0;
+
+}
+h1{
+    margin-top:0 ;
+}
+
+/******************************Class tag***********************/
+.Top-container{
+    background-color:#F9F3DF;
+    font-style: Bold;
+    padding: 20px;
+    height: 200px;
+    width:300px;
+    border: 10px;
+    border:solid;
+    border-color: black;
+}
+.Middle-container{
+    background-color:#D7E9F7;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 40px;
+    padding: 20px;
+    height: 200px;
+    width:300px;
+    margin-left: 345px;
+    border: 20px;
+    border:solid;
+    border-color: black;
+}
+.Bottom-container{
+    background-color:#F4D19B;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    padding: 20px;
+    height: 200px;
+    width:300px;
+    margin-left: 690px;
+    border: 10px;
+    border:solid;
+    border-color: black;
+}
