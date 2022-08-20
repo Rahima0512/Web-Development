@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>What's the Weather</title>
+    <style>
+        h1{
+            color:#CDC2AE;
+        }
+        body{
+            background-color: black;
+            color: #CDC2AE;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: large;
+
+        }
+        p{
+           color: #ECE5C7; 
+        }
+        .content
+        {
+            padding-top:20%;
+            padding-left:10%;
+            padding-right:10%;
+            text-align: center;
+        }
+        .bg
+        {
+            background-color: #CDC2AE;
+            color: black;
+            margin-bottom:5%;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>Welcome to the weather report website</h1>
+        <form method="post",action="/">
+            <label  for="area">Enter the Location</label><br>
+            <input class="bg" type="text" id="area" name="city" placeholder="Location name"><br>
+            <button class="bg" type="submit">Go</button>
+        </form>
+    </div>
+</body>
+</html>
